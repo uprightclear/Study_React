@@ -14,7 +14,8 @@
 	<script type="text/javascript" src="../js/react-dom.development.js"></script>
 
 	<script type="text/javascript" > 
-		//1.创建虚拟DOM
+		//1.创建虚拟DOM 
+		//React.createElement('h1',标签属性,标签内容)
 		const VDOM = React.createElement('h1',{id:'title'},React.createElement('span',{},'Hello,React'))
 		//2.渲染虚拟DOM到页面
 		ReactDOM.render(VDOM,document.getElementById('test'))
